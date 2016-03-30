@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/content/rep:policy"/>
+    <filter root="/etc/cloudservices/scene7/rep:policy"/>
+    <filter root="/etc/commerce/catalogblueprintimporter/rep:policy"/>
+    <filter root="/etc/commerce/collections/rep:policy"/>
+    <filter root="/etc/commerce/payment-methods/rep:policy"/>
+    <filter root="/etc/commerce/productimporter/rep:policy"/>
+    <filter root="/etc/commerce/products/rep:policy"/>
+    <filter root="/etc/commerce/shipping-methods/rep:policy"/>
+    <filter root="/etc/importers/bulkeditor/rep:policy"/>
+    <filter root="/etc/importers/offline/rep:policy"/>
+    <filter root="/etc/reports/auditreport/rep:policy"/>
+    <filter root="/etc/reports/compreport/rep:policy"/>
+</workspaceFilter>
