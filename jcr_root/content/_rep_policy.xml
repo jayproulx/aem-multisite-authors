@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:crx="http://www.day.com/crx/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
     jcr:primaryType="rep:ACL">
-    <allow11
-        jcr:primaryType="rep:GrantACE"
-        rep:principalName="chi-content-authors"
-        rep:privileges="{Name}[jcr:versionManagement,crx:replicate,rep:write,jcr:lockManagement]"/>
-    <deny0
+    <deny
         jcr:primaryType="rep:DenyACE"
         rep:principalName="chi-content-authors"
         rep:privileges="{Name}[rep:write]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:ntNames="{Name}[cq:meta]"/>
-    </deny0>
-    <allow12
+    </deny>
+    <allow
         jcr:primaryType="rep:GrantACE"
         rep:principalName="chi-content-authors"
         rep:privileges="{Name}[jcr:read]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
             rep:ntNames="{Name}[cq:meta]"/>
-    </allow12>
+    </allow>
 </jcr:root>

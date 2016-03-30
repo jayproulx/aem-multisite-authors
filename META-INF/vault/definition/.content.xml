@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:created="{Date}2016-03-30T15:04:45.513-04:00"
+    jcr:created="{Date}2016-03-30T16:23:24.394-04:00"
     jcr:createdBy="admin"
-    jcr:description="ACL Package initially defined by a ACS AEM Commons - ACL Packager configuration."
-    jcr:lastModified="{Date}2016-03-30T15:04:45.513-04:00"
+    jcr:description="CHI Author ACLS: specifically chi-content-authors, make sure to add chi-content-authors to contributor group after installing."
+    jcr:lastModified="{Date}2016-03-30T16:23:24.394-04:00"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="vlt:PackageDefinition"
     acHandling="Overwrite"
-    buildCount="1"
+    buildCount="2"
     group="ACLs"
-    lastUnwrapped="{Date}2016-03-30T15:04:45.513-04:00"
+    lastUnwrapped="{Date}2016-03-30T16:23:24.394-04:00"
     lastUnwrappedBy="admin"
-    lastWrapped="{Date}2016-03-30T15:04:45.513-04:00"
+    lastWrapped="{Date}2016-03-30T16:23:24.394-04:00"
     lastWrappedBy="admin"
-    name="acls"
+    name="chi-content-authors-acls"
     version="1.0.0">
     <filter jcr:primaryType="nt:unstructured">
         <f0
@@ -79,8 +79,8 @@
         <f12
             jcr:primaryType="nt:unstructured"
             mode="replace"
-            root="/home/groups/c/chi-content-authors"
-            rules="[exclude:/home/groups/c/chi-content-authors/\\.tokens]"/>
+            root="/home/groups/c/xc0yrYpldgFe9aWVWMdb"
+            rules="[exclude:/home/groups/c/xc0yrYpldgFe9aWVWMdb/\\.tokens]"/>
     </filter>
     <thumbnail.png/>
 </jcr:root>

@@ -17,6 +17,11 @@
   + * (nt:base) = nt:base version
   + jcr:content (nt:base) = nt:unstructured
 
+[rep:Members]
+  orderable
+  - * (weakreference) protected < 'rep:Authorizable'
+  + * (rep:Members) = rep:Members protected multiple
+
 [sling:OrderedFolder] > sling:Folder
   orderable
   + * (nt:base) = sling:OrderedFolder version
@@ -26,11 +31,6 @@
   - * (undefined)
   + * (nt:base) = sling:Folder version
 
-[rep:Members]
-  orderable
-  - * (weakreference) protected < 'rep:Authorizable'
-  + * (rep:Members) = rep:Members protected multiple
-
 [rep:Password]
   - * (undefined) protected
   - * (undefined) protected multiple
@@ -38,3 +38,4 @@
 [rep:RepoAccessControllable]
   mixin
   + rep:repoPolicy (rep:Policy) protected ignore
+

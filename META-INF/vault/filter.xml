@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/home/groups/c/chi-content-authors">
-        <exclude pattern="/home/groups/c/chi-content-authors/\.tokens"/>
-    </filter>
     <filter root="/content/rep:policy"/>
     <filter root="/etc/cloudservices/scene7/rep:policy"/>
     <filter root="/etc/commerce/catalogblueprintimporter/rep:policy"/>
@@ -15,4 +12,7 @@
     <filter root="/etc/importers/offline/rep:policy"/>
     <filter root="/etc/reports/auditreport/rep:policy"/>
     <filter root="/etc/reports/compreport/rep:policy"/>
+    <filter root="/home/groups/c/xc0yrYpldgFe9aWVWMdb">
+        <exclude pattern="/home/groups/c/xc0yrYpldgFe9aWVWMdb/\.tokens"/>
+    </filter>
 </workspaceFilter>
