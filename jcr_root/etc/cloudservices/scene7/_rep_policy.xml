@@ -7,6 +7,6 @@
         rep:privileges="{Name}[jcr:read,crx:replicate]"/>
     <allow0
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="content-authors"
+        rep:principalName="chi-content-authors"
         rep:privileges="{Name}[jcr:read]"/>
 </jcr:root>

@@ -5,9 +5,9 @@
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="rep:Group"
     jcr:uuid="3ebb1c04-76dd-317e-a9ee-5164182bc390"
-    rep:authorizableId="content-authors"
+    rep:authorizableId="chi-content-authors"
     rep:members="{WeakReference}[2877e3c1-7dbd-3d7a-a568-2668add85fb1,aa79250f-e000-3e3b-b0d8-d14c68ca99d0,02bd92fa-a38a-3a6c-80ea-75e59937a1ef,753bf110-3822-3f1c-9e1e-a47e0b4e2777]"
-    rep:principalName="content-authors"
+    rep:principalName="chi-content-authors"
     sling:resourceType="rep:Group">
     <preferences
         jcr:primaryType="nt:unstructured"

@@ -3,6 +3,6 @@
     jcr:primaryType="rep:ACL">
     <allow0
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="content-authors"
+        rep:principalName="chi-content-authors"
         rep:privileges="{Name}[jcr:versionManagement,crx:replicate,rep:write,jcr:lockManagement]"/>
 </jcr:root>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/home/groups/c/content-authors">
-        <exclude pattern="/home/groups/c/content-authors/\.tokens"/>
+    <filter root="/home/groups/c/chi-content-authors">
+        <exclude pattern="/home/groups/c/chi-content-authors/\.tokens"/>
     </filter>
     <filter root="/content/rep:policy"/>
     <filter root="/etc/cloudservices/scene7/rep:policy"/>

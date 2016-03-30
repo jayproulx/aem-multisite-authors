@@ -3,11 +3,11 @@
     jcr:primaryType="rep:ACL">
     <allow11
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="content-authors"
+        rep:principalName="chi-content-authors"
         rep:privileges="{Name}[jcr:versionManagement,crx:replicate,rep:write,jcr:lockManagement]"/>
     <deny0
         jcr:primaryType="rep:DenyACE"
-        rep:principalName="content-authors"
+        rep:principalName="chi-content-authors"
         rep:privileges="{Name}[rep:write]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
@@ -15,7 +15,7 @@
     </deny0>
     <allow12
         jcr:primaryType="rep:GrantACE"
-        rep:principalName="content-authors"
+        rep:principalName="chi-content-authors"
         rep:privileges="{Name}[jcr:read]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"

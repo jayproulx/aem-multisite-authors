@@ -79,8 +79,8 @@
         <f12
             jcr:primaryType="nt:unstructured"
             mode="replace"
-            root="/home/groups/c/content-authors"
-            rules="[exclude:/home/groups/c/content-authors/\\.tokens]"/>
+            root="/home/groups/c/chi-content-authors"
+            rules="[exclude:/home/groups/c/chi-content-authors/\\.tokens]"/>
     </filter>
     <thumbnail.png/>
 </jcr:root>
