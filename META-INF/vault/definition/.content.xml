@@ -76,6 +76,11 @@
             mode="replace"
             root="/etc/reports/compreport/rep:policy"
             rules="[]"/>
+        <f12
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/home/groups/c/content-authors"
+            rules="[exclude:/home/groups/c/content-authors/\\.tokens]"/>
     </filter>
     <thumbnail.png/>
 </jcr:root>
