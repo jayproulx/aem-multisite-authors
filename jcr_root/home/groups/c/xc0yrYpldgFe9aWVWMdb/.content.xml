@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="rep:Group"
-    jcr:uuid="264a7fcc-79cd-3e5e-8d43-3a6b539b6926"
+    jcr:uuid="079f428f-4568-3c4d-8214-28e7c9de6c0a"
     rep:authorizableId="multisite-authors"
     rep:principalName="multisite-authors">
     <preferences
