@@ -3,14 +3,14 @@
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="rep:Group"
     jcr:uuid="264a7fcc-79cd-3e5e-8d43-3a6b539b6926"
-    rep:authorizableId="chi-content-authors"
-    rep:principalName="chi-content-authors">
+    rep:authorizableId="multisite-authors"
+    rep:principalName="multisite-authors">
     <preferences
         jcr:primaryType="nt:unstructured"
         sling:resourceType="cq:Preferences"/>
     <profile
         jcr:primaryType="nt:unstructured"
         sling:resourceType="cq/security/components/profile"
-        aboutMe="This is the base group for CHI authors, and doesn't provide initial access to any content in /content, that needs to be assigned by a project group."
-        givenName="CHI Content Authors Base"/>
+        aboutMe="This is the base group for multisite authors, and doesn't provide initial access to any content in /content, that needs to be assigned by a project group."
+        givenName="Multisite Authors Base"/>
 </jcr:root>

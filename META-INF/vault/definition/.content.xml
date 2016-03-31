@@ -2,7 +2,7 @@
 <jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:created="{Date}2016-03-30T16:23:24.394-04:00"
     jcr:createdBy="admin"
-    jcr:description="CHI Author ACLS: specifically chi-content-authors, make sure to add chi-content-authors to contributor group after installing."
+    jcr:description="Multisite Author ACLS: specifically multisite-authors"
     jcr:lastModified="{Date}2016-03-30T16:23:24.394-04:00"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="vlt:PackageDefinition"
@@ -13,7 +13,7 @@
     lastUnwrappedBy="admin"
     lastWrapped="{Date}2016-03-30T16:23:24.394-04:00"
     lastWrappedBy="admin"
-    name="chi-content-authors-acls"
+    name="multisite-authors-acls"
     version="1.0.0">
     <filter jcr:primaryType="nt:unstructured">
         <f0
@@ -81,6 +81,56 @@
             mode="replace"
             root="/home/groups/c/xc0yrYpldgFe9aWVWMdb"
             rules="[exclude:/home/groups/c/xc0yrYpldgFe9aWVWMdb/\\.tokens]"/>
+        <f13
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/blueprints/rep:policy"
+            rules="[]"/>
+        <f14
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/docs/rep:policy"
+            rules="[]"/>
+        <f15
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/importers/rep:policy"
+            rules="[]"/>
+        <f16
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/linkchecker/rep:policy"
+            rules="[]"/>
+        <f17
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/mobile/rep:policy"
+            rules="[]"/>
+        <f18
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/msm/rep:policy"
+            rules="[]"/>
+        <f19
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/rep:policy"
+            rules="[]"/>
+        <f20
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/scaffolding/rep:policy"
+            rules="[]"/>
+        <f21
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/rep:policy"
+            rules="[]"/>
+        <f22
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/libs/rep:policy"
+            rules="[]"/>
     </filter>
     <thumbnail.png/>
 </jcr:root>

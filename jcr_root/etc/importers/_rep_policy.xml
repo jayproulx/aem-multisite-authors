@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
     jcr:primaryType="rep:ACL">
-    <deny
-        jcr:primaryType="rep:DenyACE"
-        rep:principalName="multisite-authors"
-        rep:privileges="{Name}[rep:write]">
-        <rep:restrictions
-            jcr:primaryType="rep:Restrictions"
-            rep:ntNames="{Name}[cq:meta]"/>
-    </deny>
     <allow
         jcr:primaryType="rep:GrantACE"
         rep:principalName="multisite-authors"
         rep:privileges="{Name}[jcr:read]">
         <rep:restrictions
             jcr:primaryType="rep:Restrictions"
-            rep:ntNames="{Name}[cq:meta]"/>
+            rep:glob=""/>
     </allow>
+    <allow0
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="multisite-authors"
+        rep:privileges="{Name}[jcr:read]">
+        <rep:restrictions
+            jcr:primaryType="rep:Restrictions"
+            rep:glob="/jcr:primaryType"/>
+    </allow0>
 </jcr:root>
